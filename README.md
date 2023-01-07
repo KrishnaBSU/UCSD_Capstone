@@ -1,2 +1,2 @@
 # UCSD_Capstone
-Capstone Repository
+Repository for Capstone files. 
