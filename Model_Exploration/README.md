@@ -15,6 +15,8 @@ Berttweet-base model
 
 Each model above had a different classification accuracy with ‘distilbert-base-uncased’ having the best accuracy.
 
+Models explored through Transformer Pipelines are present in the accompanying Jupyter file 'Sentiment_Analysis_Diff_Models.ipynb'.
+
 <B>ChatGPT:</B>
 ChatGPT is a large language chat model from OpenAI. I tried to use ChatGPT to see if it can do sentimental analysis for the data. 
 But, the model is mainly a chat model and provides instructions on how to do sentimental analysis. THe model on its own can't be trained to perform tasks like text prediction or sentimental analysis. 
