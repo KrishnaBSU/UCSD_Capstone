@@ -5,8 +5,8 @@ and write to the CosmosDB data base.
 3. Docker Image 2 is created from the scripts that will provide a web interface for the user to be able to provide the dates for which the sentiment analysis on bitcoin 
 is needed. Taking those dates as the input, it will plot the sentiment for bitcoin.
 4. Docker images are pushed to Azure Cloud by following the steps from: https://jonnychipz.com/2021/02/22/create-and-push-a-docker-image-to-azure-container-registry/
-5. Docker Image 1 will be made to run every day automatically , so that the latest comments for bitcoin can be pulled into the data base. This is accomplihed by creating a 
-task on Azure cloud and scheduling it to run in a periodic fashion(every day at 1AM). 
+5. Docker Image 1 will be made to run every day automatically , so that the latest comments for bitcoin can be pulled into the data base. This is accomplihed by creating 
+a task on Azure cloud and scheduling it to run in a periodic fashion(every day at 1AM). 
 6.To create a publickly accessible web page, we will containerize the docker image 2 by following the steps below: 
 https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal
 7. Finally, with the FQDN that is made available from the step 6 and with the data base updates from step 5, user should be able to get the dashboard for the Bitcoin sentiment
